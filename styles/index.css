@@ -1,0 +1,13 @@
+footer p{
+    padding: 5px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+footer {
+    clear: both;
+    text-align: center;
+    margin-top: 40px;
+}
+footer hr{
+    margin-bottom: 10px;
+}
