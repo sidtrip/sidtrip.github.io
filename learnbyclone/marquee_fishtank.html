@@ -9,7 +9,21 @@
                 background-color: cyan;
                 padding: 1em 0 0;
             }
-            
+            marquee:not(#crab){
+                animation-name: swimming;
+                animation-duration: 2s;
+                animation-iteration-count: infinite;
+                animation-timing-function: ease;
+
+            }
+
+            @keyframes swimming {
+                0% { transform: translateY(0);}
+                33% { transform: translateY(-0.5em);}
+                67% { transform: translateY(0.5em);}
+                100% { transform: translateY(0);}
+                
+            }
 
 
             #fish1 { color:red; animation-delay: 0;}
