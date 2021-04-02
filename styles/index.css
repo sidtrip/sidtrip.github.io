@@ -1,8 +1,13 @@
+#name {
+    text-align: center;
+}
+
 body {
     background: hsla(100, 40%, 47%, 0.1);
     background-image: radial-gradient(hsla(209, 20%, 47%, 1.00) 6%, transparent 0);
     background-size: 25px 25px;
   }
+
   
 
 
