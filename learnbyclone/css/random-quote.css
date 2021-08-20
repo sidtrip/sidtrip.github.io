@@ -1,0 +1,22 @@
+body,
+h1,
+h2,
+p
+{
+    font-family: 'Raleway', sans-serif;
+}
+
+h2 {font-size: 30px;}
+
+body {background: #490a3d;}
+.quotemark {
+    position:relative;
+    top:-12px;
+    padding-right: 10px;
+}
+blockquote:before{
+    color: #ccc;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
