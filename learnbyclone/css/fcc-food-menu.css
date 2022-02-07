@@ -1,0 +1,91 @@
+/*HEADER*/
+h1 {
+    font-size:40px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+header p {
+    font-style: italic;
+}
+
+/*MENU*/
+body {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/6/64/Foods_%28cropped%29.jpg) ;
+    font-family: sans-serif;
+    color:aliceblue;
+    padding: 20px;
+}
+
+
+h1, h2, p, address {
+    text-align: center;
+    
+}
+
+h2 { 
+    font-size:30px;
+}
+
+.menu {
+    width: 80%;
+    padding: 20px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(40, 15, 15, 0.845);
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+article p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+h1, h2 {
+    font-family: Impact, serif;
+}
+
+.pasta, .experimental {
+    text-align: left;
+    width: 74%
+}
+
+.price {
+    text-align: right;
+    width:24%;
+}
+
+
+/*FOOTER*/
+.bottom{
+    margin-top:25px;
+}
+hr {
+    height: 2px;
+    border-color: brown;
+    background-color: brown;
+}
+
+footer {
+    font-size: 14px;
+}
+
+address {
+    margin-bottom: 5px;
+}
+
+a, a:visited {
+    color: white;
+}
+
+a:hover, a:active {
+    color: grey;
+}
