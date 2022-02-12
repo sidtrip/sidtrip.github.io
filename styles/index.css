@@ -1,6 +1,3 @@
-#name {
-    text-align: center;
-}
 
 body {
     background: hsla(100, 40%, 47%, 0.1);
@@ -13,9 +10,11 @@ body {
     background-color: beige;
     text-align: center;
     width: 500px;
-    
+    margin:auto;
 }
 
+
+/*FOOTER*/
 
 footer p{
     padding: 5px;
@@ -23,9 +22,11 @@ footer p{
     margin-bottom: 0;
 }
 footer {
+    font-family: sans-serif;
     clear: both;
     text-align: center;
     margin-top: 40px;
+    font-size: small;
 }
 footer hr{
     margin-bottom: 10px;
